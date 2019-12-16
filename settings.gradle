@@ -1,4 +1,5 @@
-include Modules.app
+include Modules.app, Modules.presentation, Modules.network,
+        Modules.extensions, Modules.locationProvider
 
 //Modules.navigation, Modules.presentation, Modules.network,
 //        Modules.extensions, Modules.locationProvider, Modules.getLocation, Modules.showWeather
