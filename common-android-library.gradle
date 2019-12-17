@@ -15,6 +15,12 @@ android {
     buildTypes {
         release {
             minifyEnabled true
+            buildConfigField "String", "WEATHER_ENDPOINT", "\"${API.weatherServiceEndpoint}\""
+            buildConfigField "String", "WEATHER_API_KEY", "\"${API.weatherServiceKey}\""
+        }
+        debug {
+            buildConfigField "String", "WEATHER_ENDPOINT", "\"${API.weatherServiceEndpoint}\""
+            buildConfigField "String", "WEATHER_API_KEY", "\"${API.weatherServiceKey}\""
         }
     }
 }

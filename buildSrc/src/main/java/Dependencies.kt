@@ -34,7 +34,6 @@ object Versions {
     val recyclerview = "1.0.0"
     val constraintLayout = "1.1.3"
     val playServices = "17.0.0"
-    val places = "1.1.0"
     val legacySupport = "1.0.0"
 
     val ktx = "1.0.0-alpha1"
@@ -90,7 +89,6 @@ object Libraries {
     val navigation = "androidx.navigation:navigation-ui-ktx:${Versions.nav}"
     val navigationFrag = "androidx.navigation:navigation-fragment-ktx:${Versions.nav}"
     val playServicesLocation = "com.google.android.gms:play-services-location:${Versions.playServices}"
-    val places = "com.google.android.libraries.places:places:${Versions.places}"
 }
 
 object SupportLibraries {

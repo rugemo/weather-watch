@@ -25,12 +25,12 @@ android {
 }
 
 dependencies {
-//    implementation project(Modules.network)
-//    implementation project(Modules.navigation)
-//    implementation project(Modules.presentation)
-//    implementation project(Modules.extensions)
-//    implementation project(Modules.getLocation)
-//    implementation project(Modules.showWeather)
+    implementation project(Modules.network)
+    implementation project(Modules.navigation)
+    implementation project(Modules.presentation)
+    implementation project(Modules.extensions)
+    implementation project(Modules.getLocation)
+    implementation project(Modules.showWeather)
 
     implementation Libraries.kotlin
     implementation SupportLibraries.design

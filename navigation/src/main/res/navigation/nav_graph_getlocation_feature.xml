@@ -22,6 +22,16 @@
                 android:name="longitude"
                 app:argType="string"
                 app:nullable="true"/>
+            <argument
+                android:defaultValue="@null"
+                android:name="city"
+                app:argType="string"
+                app:nullable="true"/>
+            <argument
+                android:defaultValue="@null"
+                android:name="country"
+                app:argType="string"
+                app:nullable="true"/>
         </action>
 
     </fragment>
