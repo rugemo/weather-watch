@@ -36,4 +36,4 @@ I pass the city and country code to the detail fragment, then display it above t
 
 After some further investigation using (lat and lon) it seems the name New York is returned but the actual coordinates relate to somewhere associatiated with the name New York. For example, the last result on the list (Slater) is actually a place in Kentucky, there is a place near there called New York which has a population of 10 https://en.wikipedia.org/wiki/Slater,_Kentucky
 
-I don't think this api cal is a good choice for a city search. As mentioned previously, Google Placeas would be a better option but the list requirement in the UI would have to be reconsidered.
+I don't think this api call is a good choice for a city search. As mentioned previously, Google Places would be a better option but the list requirement in the UI would have to be reconsidered.
